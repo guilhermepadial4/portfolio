@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.person-content{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.person-content div h1{
+    background: var(--color-black);
+    color: var(--color-white);
+    padding: 0px 4px;
+    font-size: 4.5rem;
+    line-height: 6rem;
+}

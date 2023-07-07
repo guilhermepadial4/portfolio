@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.person{
+    height: 100vh;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+@keyframes written_text{
+    100%{
+        color: var(--color-white);
+    }
+}
