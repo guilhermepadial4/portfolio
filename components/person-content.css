@@ -3,7 +3,7 @@
 .person-content{
     height: 100%;
     width: 50%;
-    background-color: green;
+    background-color: var(--color-black);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,9 +11,9 @@
 }
 
 .person-content div h1{
-    background: var(--color-black);
-    color: var(--color-white);
+    color: transparent;
     padding: 0px 4px;
     font-size: 4.5rem;
     line-height: 6rem;
+    animation: written_text 5s ease forwards;
 }

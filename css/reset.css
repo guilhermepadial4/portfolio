@@ -2,15 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+:root{
+    --color-white: #fff;
+    --color-pink: #d12f7a;
+    --color-black: #0c0c0c;
+    --color-blue: #073fcc;
+    --color-purple: #5f01ac;
+}
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-
-:root{
-    --color-white: #fff
-    ---color-pink: #d12f7a
-    --color-black: #000
 }
