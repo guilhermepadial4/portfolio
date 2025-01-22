@@ -1,10 +1,11 @@
-import Avatar from "../assets/Avatar.png";
-import Logos from "../assets/Logos.svg";
-import { Button } from "./ui/button";
+import Avatar from "../../assets/Avatar.png";
+import Logos from "../../assets/Logos.svg";
+import { Button } from "../ui/button";
+import Projects from "./projects/project";
 
 export function Content() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center bg-zinc-900 text-white">
+    <div className="flex h-full flex-col items-center justify-center bg-zinc-900 text-white">
       <img className="mb-7 mt-6 h-32 w-32" src={Avatar} alt="avatar" />
 
       <p className="text-5xl font-extrabold">I do code and</p>
@@ -35,6 +36,8 @@ export function Content() {
       <p className="mt-12 text-xl text-neutral-300">EXPERIENCE WITH</p>
 
       <img className="mt-10" src={Logos} alt="Logos" />
+
+      <Projects />
     </div>
   );
 }
