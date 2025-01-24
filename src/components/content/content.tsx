@@ -1,6 +1,7 @@
 import Avatar from "../../assets/Avatar.png";
 import Logos from "../../assets/Logos.svg";
 import { Button } from "../ui/button";
+import { Experience } from "./experience/experience";
 import Projects from "./projects/project";
 
 export function Content() {
@@ -38,6 +39,7 @@ export function Content() {
       <img className="mt-10" src={Logos} alt="Logos" />
 
       <Projects />
+      <Experience />
     </div>
   );
 }
