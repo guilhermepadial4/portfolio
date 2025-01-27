@@ -3,7 +3,7 @@ import { Github } from "lucide-react";
 
 export default function ProjectCard({ image, title, description }) {
   return (
-    <div className="relative transform overflow-hidden rounded-lg bg-zinc-800 shadow-lg transition-transform hover:-translate-y-2 hover:shadow-2xl cursor-pointer">
+    <div className="relative w-72 transform overflow-hidden rounded-lg bg-zinc-800 shadow-lg transition-transform hover:-translate-y-2 hover:shadow-2xl cursor-pointer">
       <img
         src={image}
         alt={title}
@@ -20,7 +20,7 @@ export default function ProjectCard({ image, title, description }) {
 
         <div className="mt-4 flex items-center gap-2 text-slate-400 transition-colors hover:text-white">
           <Github className="h-5 w-5" />
-          <span >Ver código no GitHub</span>
+          <span>Ver código no GitHub</span>
         </div>
       </div>
     </div>
