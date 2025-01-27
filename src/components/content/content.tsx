@@ -2,6 +2,7 @@ import Avatar from "../../assets/Avatar.png";
 import Logos from "../../assets/Logos.svg";
 import { Button } from "../ui/button";
 import { Experience } from "./experience/experience";
+import { Footer } from "./footer/footer";
 import Projects from "./projects/project";
 
 export function Content() {
@@ -40,6 +41,7 @@ export function Content() {
 
       <Projects />
       <Experience />
+      <Footer />
     </div>
   );
 }
