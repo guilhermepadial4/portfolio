@@ -24,7 +24,7 @@ const experiences = [
 export function Experience() {
   return (
     <>
-      <h3 className="text-4xl font-extrabold text-blue-700">EXPERIENCE</h3>
+      <h3 className="text-4xl font-extrabold text-blue-700">EXPERIÊNCIA</h3>
 
       <div className="mt-9 w-[35rem] space-y-8">
         {experiences.map((experience, index) => (

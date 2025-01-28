@@ -1,37 +1,39 @@
 import { Mail } from "lucide-react";
 
-import Instagram from "../../../assets/instagram.svg";
-import X from "../../../assets/x.svg";
-import Youtube from "../../../assets/youtube.svg";
+import Github from "../../../assets/github.svg";
+import Linkedin from "../../../assets/linkedin.svg";
+import Telegram from "../../../assets/telegram.svg";
+import Whatsapp from "../../../assets/whatsapp.svg";
 
 export function Footer() {
   return (
     <>
       <footer className="mt-16 h-full w-full bg-zinc-800">
         <div className="ml-[25rem] mt-20 w-[35rem]">
-          <h3 className="text-2xl font-bold">Contact</h3>
+          <h3 className="text-2xl font-bold">Contato</h3>
 
           <p className="mt-5 text-base text-gray-400">
-            Seasoned Full Stack Software Engineer with over 8 years of hands-on
-            experience in designing and implementing robust, scalable, and
-            innovative web solutions. Adept at leveraging a comprehensive skill
-            set encompassing front-end and back-end technologies{" "}
+            Com 5 anos de experiência em desenvolvimento Front-End, minha
+            especialidade é criar interfaces web modernas e eficientes
+            utilizando os frameworks mais atuais do mercado. Estou sempre aberto
+            a novas oportunidades de colaborar em projetos desafiadores e
+            inovadores. Se você procura um desenvolvedor comprometido e focado
+            em entregar resultados de qualidade, entre em contato. Vamos
+            conversar sobre como posso ajudar a transformar suas ideias em
+            realidade!{" "}
           </p>
 
           <span className="mt-5 flex items-center gap-1">
             <Mail strokeWidth={1} size={20} />
             <p className="cursor-pointer font-semibold text-gray-400">
-              test@email.com
+              guilhermepadial4@gmail.com
             </p>
           </span>
-          <div className="mt-8 flex gap-5 mb-11">
-            <img
-              className="cursor-pointer"
-              src={Instagram}
-              alt="Icon Instagram"
-            />
-            <img className="cursor-pointer" src={X} alt="Icon X" />
-            <img className="cursor-pointer" src={Youtube} alt="Icon Youtube" />
+          <div className="mb-11 mt-8 flex gap-5">
+            <img className="cursor-pointer" src={Whatsapp} alt="Icon X" />
+            <img className="cursor-pointer" src={Linkedin} alt="Icon Youtube" />
+            <img className="cursor-pointer" src={Github} alt="Icon Youtube" />
+            <img className="cursor-pointer" src={Telegram} alt="Icon Youtube" />
           </div>
         </div>
       </footer>

@@ -27,7 +27,7 @@ const projects = [
 export default function Projects() {
   return (
     <>
-      <p className="mt-16 text-4xl font-extrabold text-orange-600">Projects</p>
+      <p className="mt-16 text-4xl font-extrabold text-orange-600">Projetos</p>
 
       <div className="grid grid-cols-1 gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
