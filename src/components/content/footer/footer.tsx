@@ -9,10 +9,12 @@ export function Footer() {
   return (
     <>
       <footer className="mt-16 h-full w-full bg-zinc-800">
-        <div className="ml-[25rem] mt-20 w-[35rem]">
-          <h3 className="text-2xl font-bold">Contato</h3>
+        <div className="mx-auto mt-20 w-full max-w-screen-lg px-6 sm:px-12 lg:px-0">
+          <h3 className="text-center text-2xl font-bold sm:text-left">
+            Contato
+          </h3>
 
-          <p className="mt-5 text-base text-gray-400">
+          <p className="mt-5 text-center text-base text-gray-400 sm:text-left">
             Com 5 anos de experiência em desenvolvimento Front-End, minha
             especialidade é criar interfaces web modernas e eficientes
             utilizando os frameworks mais atuais do mercado. Estou sempre aberto
@@ -20,20 +22,63 @@ export function Footer() {
             inovadores. Se você procura um desenvolvedor comprometido e focado
             em entregar resultados de qualidade, entre em contato. Vamos
             conversar sobre como posso ajudar a transformar suas ideias em
-            realidade!{" "}
+            realidade!
           </p>
 
-          <span className="mt-5 flex items-center gap-1">
+          <div className="mt-5 flex items-center justify-center gap-1 sm:justify-start">
             <Mail strokeWidth={1} size={20} />
             <p className="cursor-pointer font-semibold text-gray-400">
-              guilhermepadial4@gmail.com
+              <a href="mailto:guilhermepadial4@gmail.com" target="_blank">
+                guilhermepadial4@gmail.com
+              </a>
             </p>
-          </span>
-          <div className="mb-11 mt-8 flex gap-5">
-            <img className="cursor-pointer" src={Whatsapp} alt="Icon X" />
-            <img className="cursor-pointer" src={Linkedin} alt="Icon Youtube" />
-            <img className="cursor-pointer" src={Github} alt="Icon Youtube" />
-            <img className="cursor-pointer" src={Telegram} alt="Icon Youtube" />
+          </div>
+
+          <div className="mb-11 mt-8 flex justify-center gap-5 sm:justify-start">
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511995792143&text=Ol%C3%A1%2C+quero+saber+mais+sobre+seus+servi%C3%A7os%21&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-6 cursor-pointer sm:w-6"
+                src={Whatsapp}
+                alt="WhatsApp"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/guilhermepadial/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-6 cursor-pointer sm:w-6"
+                src={Linkedin}
+                alt="LinkedIn"
+              />
+            </a>
+            <a
+              href="https://github.com/guilhermepadial4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-6 cursor-pointer sm:w-6"
+                src={Github}
+                alt="GitHub"
+              />
+            </a>
+            <a
+              href="https://t.me/+5511995792143"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-6 cursor-pointer sm:w-6"
+                src={Telegram}
+                alt="Telegram"
+              />
+            </a>
           </div>
         </div>
       </footer>
