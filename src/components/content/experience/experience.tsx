@@ -1,29 +1,15 @@
 const experiences = [
   {
-    title: "Auxiliar Fiscal",
-    date: "Nov 2024 - Jan 2025",
+    title: "Freelancer",
+    date: "Out 2024",
     description:
-      "Lançamento de documentos fiscais, suporte no controle e arquivamento, além de conhecimentos em Escrita Fiscal e Retenções na Fonte.",
-  },
-
-  {
-    title: "Auxiliar Fiscal",
-    date: "Nov 2024 - Jan 2025",
-    description:
-      "Lançamento de documentos fiscais, suporte no controle e arquivamento, além de conhecimentos em Escrita Fiscal e Retenções na Fonte.",
-  },
-
-  {
-    title: "Auxiliar Fiscal",
-    date: "Nov 2024 - Jan 2025",
-    description:
-      "Lançamento de documentos fiscais, suporte no controle e arquivamento, além de conhecimentos em Escrita Fiscal e Retenções na Fonte.",
+      "Atuando como freelancer, desenvolvi projetos web completos, desde a concepção até a entrega final, garantindo soluções escaláveis e responsivas. Trabalhei com tecnologias modernas como React, Sass, Bootstrap e outras ferramentas para criar interfaces intuitivas e performáticas. Além do desenvolvimento front-end, tive experiência na integração de APIs e no gerenciamento de funcionalidades no back-end, sempre focando em boas práticas de código e otimização de performance.",
   },
 ];
 
 export function Experience() {
   return (
-    <div className="flex w-full flex-col items-center">
+    <div id="experience" className="flex w-full flex-col items-center">
       {/* Título responsivo */}
       <h3 className="mt-9 text-center text-3xl font-extrabold text-blue-700 sm:text-5xl">
         EXPERIÊNCIA

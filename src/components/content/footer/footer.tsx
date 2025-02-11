@@ -8,7 +8,7 @@ import Whatsapp from "../../../assets/whatsapp.svg";
 export function Footer() {
   return (
     <>
-      <footer className="mt-16 h-full w-full bg-zinc-800">
+      <footer id="contact" className="mt-16 h-full w-full bg-zinc-800">
         <div className="mx-auto mt-20 w-full max-w-screen-lg px-6 sm:px-12 lg:px-0">
           <h3 className="text-center text-2xl font-bold sm:text-left">
             Contato

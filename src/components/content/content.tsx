@@ -7,7 +7,7 @@ import Projects from "./projects/project";
 
 export function Content() {
   return (
-    <div className="flex h-full flex-col items-center justify-center bg-zinc-900 px-6 text-white">
+    <div id="home" className="flex h-full flex-col items-center justify-center bg-zinc-900 px-6 text-white">
       {/* Avatar Responsivo */}
       <img
         className="mb-7 mt-6 h-24 w-24 sm:h-32 sm:w-32"
