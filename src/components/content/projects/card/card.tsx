@@ -1,12 +1,20 @@
 import { ArrowUpRight, Github } from "lucide-react";
 
+interface ProjectCardProps {
+  image: string;
+  title: string;
+  description: string;
+  siteUrl: string;
+  githubUrl: string;
+}
+
 export default function ProjectCard({
   image,
   title,
   description,
   siteUrl,
   githubUrl,
-}) {
+}: ProjectCardProps) {
   return (
     <div className="relative w-72 transform overflow-hidden rounded-lg bg-zinc-800 shadow-lg transition-transform hover:-translate-y-2 hover:shadow-2xl">
       {/* Link para o site */}
