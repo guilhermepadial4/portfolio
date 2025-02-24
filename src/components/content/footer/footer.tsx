@@ -43,7 +43,7 @@ export function Footer() {
               <img
                 className="w-6 cursor-pointer sm:w-6"
                 src={Whatsapp}
-                alt="WhatsApp"
+                alt="Icone WhatsApp"
               />
             </a>
             <a
@@ -54,7 +54,7 @@ export function Footer() {
               <img
                 className="w-6 cursor-pointer sm:w-6"
                 src={Linkedin}
-                alt="LinkedIn"
+                alt="Icone LinkedIn"
               />
             </a>
             <a
@@ -65,7 +65,7 @@ export function Footer() {
               <img
                 className="w-6 cursor-pointer sm:w-6"
                 src={Github}
-                alt="GitHub"
+                alt="Icone GitHub"
               />
             </a>
             <a
@@ -76,7 +76,7 @@ export function Footer() {
               <img
                 className="w-6 cursor-pointer sm:w-6"
                 src={Telegram}
-                alt="Telegram"
+                alt="Icone Telegram"
               />
             </a>
           </div>
